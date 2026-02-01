@@ -1259,8 +1259,9 @@ do
 	end)
 end
 
-local info = E.TagInfo -- lets add the ones from this file into the table
-if info then
+E:RegisterInternalTagInfo(function(info)
+	local L = E.Libs.ACL:GetLocale('ElvUI', E.global.general.locale or 'enUS')
+
 	info['class'] = { category = L["Class"], description = L["Displays the class of the unit, if that unit is a player"] }
 	info['class:icon'] = { category = L["Class"], description = L["Displays the class icon of the unit, if that unit is a player"] }
 	info['smartclass'] = { category = L["Class"], description = L["Displays the player's class or creature's type"] }
@@ -1498,4 +1499,4 @@ if info then
 	info['threat:current'] = { category = L["Threat"], description = L["Displays the current threat as a value"] }
 	info['threat:lead'] = { category = L["Threat"], description = L["Displays the current threat of lead as a percent"] }
 	info['threat:percent'] = { category = L["Threat"], description = L["Displays the current threat as a percent"] }
-end
+end)
