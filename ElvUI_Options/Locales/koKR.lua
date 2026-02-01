@@ -1087,7 +1087,6 @@ L["Minus"] = "작은 NPC"
 L["Minutes"] = "분 단위 색상"
 L["Mirror Timers"] = "미러 타이머"
 L["Misc Frames"] = "기타 프레임"
-L["Miscellaneous"] = "잡다한" 	-- No localization symbols (Tags.lua Line 30)
 L["Missing"] = "잃어버림(알림)"
 L["Missing Aura"] = "잃어버린 오라"
 L["MM:SS Threshold"] = "분:초 표시 변경 값(초)"
