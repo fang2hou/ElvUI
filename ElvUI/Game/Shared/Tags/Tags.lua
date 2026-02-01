@@ -1470,6 +1470,7 @@ if info then
 	info['speed:yardspersec-moving'] = { category = L["Speed"] }
 	info['speed:yardspersec-moving-raw'] = { category = L["Speed"] }
 	info['speed:yardspersec-raw'] = { category = L["Speed"] }
+
 	info['afk'] = { category = L["Status"], description = L["Displays <AFK> if the unit is afk"] }
 	info['ElvUI-Users'] = { category = L["Status"], description = L["Displays current ElvUI users"] }
 	info['status:icon'] = { category = L["Status"], description = L["Displays AFK/DND as an orange(afk) / red(dnd) icon"] }
