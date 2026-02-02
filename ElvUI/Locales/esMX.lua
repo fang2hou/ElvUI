@@ -399,7 +399,7 @@ L["Item Level:"] = "Nivel de Objeto:"
 L["Item level: %.2f"] = "Nivel de Objeto: %.2f"
 L["joined a group"] = "se unió a un grupo"
 L["Key"] = "Tecla"
-L["Key Binds"] = true
+L["Keybinds"] = true
 L["Large"] = "Grande"
 L["Layout"] = "Distribución"
 L["Layout Set"] = "Distribución Establecida"
@@ -680,17 +680,13 @@ L["|cFFffffffShift + Right Click:|r Select Output Audio Device"] = "|cFFffffffSh
 L["||cffXXXXXX [tag] or text here ||r"] = true
 L["ABOVE_THREAT_FORMAT"] = "%s: %.0f%% [%.0f%% above |cff%02x%02x%02x%s|r]"
 L["AFK"] = "Ausente"
-L["AP:"] = "PA:"
 L["AVD: "] = "EVA: "
 L["BINDINGS_HELP"] = ("Hover your mouse over any *action|r, *micro|r, *macro|r, or *spellbook|r button to bind it. This also works for items in your *bag|r. Press the ^ESC|r key to ^clear|r the current bindings."):gsub('*', E.InfoColor):gsub('%^', E.InfoColor2)
 L["DND"] = "Oc"
 L["DPS"] = "DPS"
 L["ELVUI_DESC"] = ("*ElvUI|r |cFFffffffes un addon que reemplaza la interfaz completa de World of Warcraft.|r"):gsub('*', E.InfoColor)
-L["G"] = "H"
 L["HP"] = "Salud"
 L["HPS"] = "VPS"
-L["I"] = true
-L["IL"] = "LI"
 L["INCOMPATIBLE_ADDON"] = "%s is not compatible with %s.\nPlease select the addon/module to use."
 L["KEY_ALT"] = "A"
 L["KEY_CTRL"] = "C"
@@ -713,16 +709,21 @@ L["KEY_SHIFT"] = "S"
 L["KEY_SPACE"] = "SpB"
 L["LOGIN_MSG"] = ("Bienvenido a *ElvUI|r versión *%s|r, escribe */ec|r para acceder al menú de configuración del juego. Si necesita ayuda, puede visítenos en https://tukui.org o unirse a nuestro Discord: https://discord.tukui.org"):gsub('*', E.InfoColor)
 L["LOGIN_MSG_HELP"] = ("Por favor, escriba */ehelp|r para obtener una lista de los comandos de *ElvUI|r disponibles."):gsub('*', E.InfoColor)
-L["O"] = "O"
-L["P"] = "G"
-L["PL"] = "LG"
-L["R"] = "B"
-L["RL"] = "LB"
-L["RW"] = "AB"
-L["SP"] = "PH"
 L["UPDATE_REQUEST"] = "Parece que hay un problema con tu instalación. Por favor reinstala ElvUI."
-L["XP:"] = "EXP:"
 
+----------------------------------
+L["AP:"] = "PA:"	-- Attack Power
+L["XP:"] = "EXP:"	-- Experience
+L["G"] = "H"		-- Chat: Guild
+L["I"] = true		-- Chat: Instance
+L["IL"] = "LI"		-- Chat: Instance Leader
+L["O"] = true		-- Chat: Guild Officer
+L["P"] = "G"		-- Chat: Party
+L["PL"] = "LG"		-- Chat: Party Leader
+L["R"] = "B"		-- Chat: Raid
+L["RL"] = "LB"		-- Chat: Raid Leader
+L["RW"] = "AB"		-- Chat: Raid Warning
+L["SP"] = "PH"		-- Spellpower
 ----------------------------------
 L["DESC_MOVERCONFIG"] = [=[Fijadores desbloqueados. Muévelos ahora y haz clic en Bloquear cuando termines.
 

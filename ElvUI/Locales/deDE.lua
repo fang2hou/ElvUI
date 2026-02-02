@@ -399,7 +399,7 @@ L["Item Level:"] = "Gegenstandsstufe:"
 L["Item level: %.2f"] = "Gegenstandsstufe: %.2f"
 L["joined a group"] = "ist einer Gruppe beigetreten"
 L["Key"] = "Taste"
-L["Key Binds"] = true
+L["Keybinds"] = true
 L["Large"] = "Groß"
 L["Layout"] = "Layout"
 L["Layout Set"] = "Layout gesetzt"
@@ -680,17 +680,13 @@ L["|cFFffffffShift + Right Click:|r Select Output Audio Device"] = "|cFFffffffSh
 L["||cffXXXXXX [tag] or text here ||r"] = true
 L["ABOVE_THREAT_FORMAT"] = "%s: %.0f%% [%.0f%% above |cff%02x%02x%02x%s|r]"
 L["AFK"] = "AFK"
-L["AP:"] = "AP:"
 L["AVD: "] = "AVD: "
 L["BINDINGS_HELP"] = ("Hover your mouse over any *action|r, *micro|r, *macro|r, or *spellbook|r button to bind it. This also works for items in your *bag|r. Press the ^ESC|r key to ^clear|r the current bindings."):gsub('*', E.InfoColor):gsub('%^', E.InfoColor2)
 L["DND"] = "DND"
 L["DPS"] = "DPS"
 L["ELVUI_DESC"] = ("*ElvUI|r ist ein komplettes Benutzerinterface für World of Warcraft."):gsub('*', E.InfoColor)
-L["G"] = "G"
 L["HP"] = "HP"
 L["HPS"] = "HPS"
-L["I"] = true -- Abbreviation of I for Instance Chat
-L["IL"] = "IL"
 L["INCOMPATIBLE_ADDON"] = "Das Addon %s ist nicht mit %s kompatibel.\nBitte wähle das AddOn/Modul was du nutzen möchtest."
 L["KEY_ALT"] = "A"
 L["KEY_CTRL"] = "C"
@@ -713,16 +709,21 @@ L["KEY_SHIFT"] = "S"
 L["KEY_SPACE"] = "SpB"
 L["LOGIN_MSG"] = ("Willkommen zu *ElvUI|r Version *%s|r, Tippe */ec|r um das Konfigurationsmenü aufzurufen. Für technische Hilfe, besuche das Supportforum unter https://tukui.org oder trete unserem Discord bei: https://discord.tukui.org"):gsub('*', E.InfoColor)
 L["LOGIN_MSG_HELP"] = ("Please use */ehelp|r for a list of available *ElvUI|r commands."):gsub('*', E.InfoColor)
-L["O"] = "O"
-L["P"] = "P"
-L["PL"] = "PL"
-L["R"] = "R"
-L["RL"] = "RL"
-L["RW"] = "RW"
-L["SP"] = "SP"
 L["UPDATE_REQUEST"] = "There seems to be an issue with your installation. Please reinstall ElvUI."
-L["XP:"] = "EP:"
 
+----------------------------------
+L["AP:"] = true		-- Attack Power
+L["XP:"] = "EP:"	-- Experience
+L["G"] = true		-- Chat: Guild
+L["I"] = true		-- Chat: Instance
+L["IL"] = true		-- Chat: Instance Leader
+L["O"] = true		-- Chat: Guild Officer
+L["P"] = true		-- Chat: Party
+L["PL"] = true		-- Chat: Party Leader
+L["R"] = true		-- Chat: Raid
+L["RL"] = true		-- Chat: Raid Leader
+L["RW"] = true		-- Chat: Raid Warning
+L["SP"] = true		-- Spellpower
 ----------------------------------
 L["DESC_MOVERCONFIG"] = [=[Ankerpunkte entriegelt. Bewege die Ankerpunkte und klicke 'sperren', wenn du fertig bist.
 
